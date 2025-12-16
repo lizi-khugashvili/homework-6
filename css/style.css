@@ -1,0 +1,40 @@
+body{
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container{
+  width: min(100% 1440);
+  margin: auto;
+}
+
+/* ----------- header ------------ */
+
+header{
+  background-color: #284069;
+  display: flex;
+  padding: 53px 98px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerul{
+  display: flex;
+  column-gap: 50px;
+}
+
+.active, .inactive{
+font-weight: 500;
+font-style: Medium;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.active{
+  color: #F56013;
+}
+
+.inactive{
+  color: #DDEAF8;
+}
